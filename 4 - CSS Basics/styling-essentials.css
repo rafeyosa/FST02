@@ -1,0 +1,75 @@
+#text-styling {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* Default: Times New Roman */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Font Weight */
+    /* Keyword Values */
+    font-weight: normal;
+    font-weight: bold;
+    /* Numeric Values */
+    /* [100 - 950] */
+    font-weight: 300;
+    font-weight: 400; /* Default Value */
+    font-weight: 700; /* Bold */
+
+    /* Font Style */
+    font-style: italic;
+    font-style: normal;
+    font-style: oblique;
+
+    /* Line Height */
+    line-height: normal;
+    line-height: 3;
+    line-height: 50%;
+    line-height: 16px;
+
+    /* Letter Spacing */
+    letter-spacing: 4px; /* adds space */
+    letter-spacing: -2px; /* removes space */
+    letter-spacing: normal;
+}
+
+#text-decoration {
+    text-decoration: line-through;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: underline overline line-through;
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;  
+    text-decoration-style: wavy;  
+    text-decoration-color: red;
+    /* Combine all of them */
+    text-decoration: overline solid red;
+}
+
+#colors {
+    /* Color Names */
+    color: white;
+    background-color: red;
+    /* RGB */
+    /* rgb(red, green, blue) [0, 255]*/
+    color: rgb(18, 119, 18);
+    /* alpha - Fully Transparent(0.0) Fully Opaque(1.0)*/
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Hexadecimal */
+    /* #RRGGBB [0 - 9, A - F]*/
+    color: #e0e1dd;
+    background-color: #1b263b;
+}
+
+/* Units of Meaurement */
+#absolute-unit-px {
+    font-size: 24px;
+}
+
+/* Relative to the parent element */
+#relative-unit-em {
+    font-size: 2em;
+    /* 2(20px) = 40px */
+    font-size: 2rem;
+    /* 2(16) = 32 */
+}
